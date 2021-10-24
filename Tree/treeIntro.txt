@@ -1,0 +1,30 @@
+------ Tree -----
+"A tree is a nonlinear datastructure with hierarchical relationship
+between its elements without having any cycle. it is basically 
+reversed from real life tree"
+
+
+-- Properties Of Tree
+    - represent hierarchical data
+    - each node has two component: data and a link to its subcategory
+    - base category and subcategory under it
+
+
+-- Why Tree ?
+   - Quicker and easier access to data
+   - store hierarchical data like folder structure, organized structure,
+
+
+
+--- Tree Termonology
+     - Root: top node without parent
+     - Edge: a link between parent and child
+     - Leaf: a node which does not have children
+     - Sibling: children of same parent
+     - Ancestor: a node which has parent, grandparent and great grandparent 
+     - Depth of node: a length of the path from root to node
+     - Height of node: a length of the path from the node to the deepest node
+     - Depth of tree: depth of root node = 0
+     - Height of tree: height of root node
+
+    

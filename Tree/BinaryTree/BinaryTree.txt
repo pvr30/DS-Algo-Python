@@ -1,0 +1,20 @@
+"""
+Binary Tree: "Binary tree are the data structure in which each node has at most
+two children often reffred to as the left and right children"
+
+"""
+
+
+ -- We can use LinkedList and Python List to represent Binary Tree.
+
+
+ --- Using Linked List
+   - Every Node has three value
+    - first data block
+    - left Child location
+    - right Child location
+
+--- Using Python List
+    - 0 index should not be considered
+    - Left Child = cell[2x]  where x = index
+    - Right Child = cell[2x + 1] 

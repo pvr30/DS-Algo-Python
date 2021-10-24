@@ -1,0 +1,38 @@
+-----  AVL Tree ---
+
+
+--- What is AVL Tree ?
+
+    - "An AVL tree is a self-balancing Binary Search Tree where the differece between heights of left subtree
+    and right subtree can not be more than one for all nodes"
+
+-- If at any time heights of left and right subtrees differ by more than one, than rebalancing is done to restore
+    AVL property, this process is called rotation
+
+
+---- Why AVL Tree
+
+- let's say we want to insert 10,20,30,40,50
+
+-- so using BST it looks like this and time complexity for searching is O(N)
+        10
+          \
+           20
+             \
+              30
+                \
+                 40
+                   \
+                    50
+
+--- But.........
+
+- Using AVL Tree and time complexity is O(logN)
+
+        40
+       /  \
+      20   50
+     /  \
+    10   30
+
+
