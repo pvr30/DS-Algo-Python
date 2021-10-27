@@ -1,0 +1,36 @@
+--- Binary Heap----
+
+""
+A binary heap is either Min Heap or Max Heap. In a Min binary heap. the key at root must be minimum among all keys
+present in binary heap. the same property must be recursively true for all nodes in binary tree
+
+""
+
+--- It is a complete tree, all levels are completely filled except possibly the last level and the 
+last level has all keys as left as possible. this property make them suitable to be stored in an array.
+
+
+--- Max Heap :- the value of each node is greater than equal to the value of both its children
+
+        30
+       /  \
+      20   15
+     /  \  /  \
+    5   10 12  7
+
+
+--- Min Heap:- the value of each node is less than equal to the value of both its children
+
+    
+         5 
+`      /   \
+      10    20 
+    /    \ /  \
+  30    40 50  60
+ /  \
+70   80    
+
+
+
+--- Binary heap is not suitable for searching 
+
