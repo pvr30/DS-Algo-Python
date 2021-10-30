@@ -41,3 +41,23 @@ indexed using keys."
 -- Properties of good hash function
     - It distribute hash values uniformly across hash tables
     - It has to use all the input data
+
+
+---- Collision Resolution Technique.
+        1.Direct Chaining
+        2. Open Addressing
+            1. Linear Probing
+            2. Quadratic Probing
+            3. Double Hashing
+        
+
+    1. Direct Chaining:- Implements the backets as List/LinkedList. Colliding elements are stored in a that list.
+
+
+    2. Open Addressing :- Colliding elements are stored in other vacant places in hashtable
+
+        1.Linear Probing :- find vacant places Linearaly
+
+
+
+
