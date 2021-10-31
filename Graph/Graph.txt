@@ -1,0 +1,42 @@
+
+What is Graph ?
+-- "Graph Consists of finite set of Vertices(or Nodes) and set of edges which connect a pair of nodes"
+
+Why Graphs ?
+-- Graphs are a powerful and versatile data structure that easily allow you to represent real 
+   life relationships between different types of data (nodes)
+
+
+------ Graph Termonology ---------
+
+  - Vertices:- nodes of the graph
+  - Edge:- It a line that connect a pair of a Vertices
+  - Unweighted Graph:- A graph which does not have a weight associated with any edge
+  - Weighted Graph:- a graph which has a weight associated with any edge
+  - Undirect Graph:- In case the edges of the graph do not have a direction associated with them
+  - Directed Graph:- If the edges in a graph have a direction associated with them
+  - Cyclic Graph:- A graph which has atleast one loop
+  - Acyclic Graph:- a graph with no loop
+  - Tree: It is a special case of directed acyclic graph.
+
+
+
+  ------------------ Graph Types ----------------------------------
+
+
+
+                                        Graph
+                                       /     \
+                                      /       \
+                                     /         \
+                                  Directed      --Undirected
+                                 /    \                 /   \
+                                /      \               /     \
+                               /        \             /       \  
+                        Weighted       Unweighted    Weighted  Unweighted
+                        /   \                         /  \
+                       /     \                       /    \
+                      /       \                     /      \
+                    Positive  Negative            Positive  Negative
+
+

@@ -1,0 +1,47 @@
+-------------- Graph Representation ------------------
+
+
+Method 1 :- 
+
+Adjacecy Matrix :- It a squere matrix or 2D array, the elements of the matrix indicates wether a pairs of Vertices
+                    are adjacent or not in a graph.
+
+
+     Example :       
+
+                       A-------B
+                       |\       \
+                       | \       \   
+                       |  \       E  
+                       |   \     /
+                       |    \   /
+                       |     \ /
+                       C------D             
+
+                Matrix:
+                        Here Vertices=5 so matrix will be 5 * 5
+
+                           A B C D E
+                        A  0 1 1 1 0
+                        B  1 0 0 0 1
+                        C  1 0 0 1 0
+                        D  1 0 1 0 1
+                        E  0 1 0 1 0
+
+Method 2 :- 
+
+-- Adjacecy List :- It is a collection of unordered list used to represent a graph.Each list describe the set of
+                    neighbors of a vertex in a graph 
+
+
+                    LinkedList:  
+
+                              A -> B -> C -> D
+
+                              B -> A -> E
+
+                              C -> A -> D
+
+                              D -> A -> C -> E
+
+                              E -> B -> D
